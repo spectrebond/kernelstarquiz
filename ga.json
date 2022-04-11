@@ -1,0 +1,84 @@
+{
+  "data" : [
+      {
+          "question": "In how many ways the letter ‘SOLVING’ can be rearranged to make 7 letter words such that none of the letters repeat?",
+          "a": " 49",
+          "b": " None of the above",
+          "c": " 5040",
+          "d": "Rasmus Lerdorf",
+          "correct": "7C7"
+      },
+      {
+          "question": "What is the missing letter in this series? b  e  h  k  n  ?  t",
+          "a": "q",
+          "b": "r",
+          "c": "s",
+          "d": "u",
+          "correct": "a"
+      },
+      {
+          "question": "The average age of a group of 5 students was 10. The average age increased by 4 years when 2 new students joined the group. What is the average age of the two new students who joined the group?",
+          "a": "15",
+          "b": "20",
+          "c": "22",
+          "d": "24",
+          "correct": "d"
+      },
+      {
+          "question": "If you unscramble the letters YKANE, you will get the name of a:",
+          "a": " Mountain pass",
+          "b": "Warrior",
+          "c": "Flower",
+          "d": "Country",
+          "correct": "d"
+      },
+      {
+          "question": "3 is 80% of what number?",
+          "a": "2.50",
+          "b": "3.00",
+          "c": "3.75",
+          "d": "3.50",
+          "correct": "c"
+      },
+      {
+          "question": "There are twenty four students in a certain class. For every nine girls there are three boys. How many girls and how many boys are there in the class?",
+          "a": "19 and 5",
+          "b": "18 and 6",
+          "c": "15 and 9",
+          "d": " 14 and 10",
+          "correct": "b"
+      },
+      {
+          "question": "If Simran’s job is to recruit, develop and manage staff in her organization, which among the following is her designatio",
+          "a": "Personal Manager",
+          "b": "Personnal Manager",
+          "c": "Personnel Manager",
+          "d": "Personality Manager",
+          "correct": "c"
+      },
+      {
+          "question": "Five teams from Delhi’s Schools are participating in a Summer School Football League. If each team plays the other teams 2 times, the total number of games the League will play is",
+          "a": "10",
+          "b": "20",
+          "c": "30",
+          "d": "40",
+          "correct": "b"
+      },
+      {
+          "question": "A number increases from 20 to 30 and then decreases from 30 to 20. Compare the percent of increase from 20 to 30 and that of the decrease from 30 to 20. From the following which of the following statement is true:",
+          "a": " Percent decrease is less than the percent increase",
+          "b": "Percent decrease is more than the percent increase",
+          "c": "Percent increase is less than the percent increase",
+          "d": " None of the above",
+          "correct": "a"
+      },
+      {
+          "question": "In an equation, √96 ÷ √k = 2√6; what value of k will satisfy the equation?",
+          "a": "2",
+          "b": "4",
+          "c": "6",
+          "d": "8",
+          "correct": "b"
+      }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "data" : [
+      {
+          "question": "Who is the father of Computers?",
+          "a": "James Gosling",
+          "b": "Charles Babbage",
+          "c": "Dennis Ritchie`",
+          "d": " Bjarne Stroustrup",
+          "correct": "b"
+      },
+      {
+          "question": "Which of the following is the correct abbreviation of COMPUTER?",
+          "a": "Commonly Occupied Machines Used in Technical and Educational Research",
+          "b": "Commonly Operated Machines Used in Technical and Environmental Research",
+          "c": "Commonly Oriented Machines Used in Technical and Educational Research",
+          "d": "Commonly Operated Machines Used in Technical and Educational Research ",
+          "correct": "d"
+      },
+      {
+          "question": " Which of the following is the correct definition of Computer?",
+          "a": "Computer is a machine or device that can be programmed to perform arithmetical or logic operation sequences automatically",
+          "b": "Computer understands only binary language which is written in the form of 0s & 1s",
+          "c": "Computer is a programmable electronic device that stores, retrieves, and processes the data",
+          "d": " All of the mentioned",
+          "correct": "d"
+      },
+      {
+          "question": "What is the full form of CPU",
+          "a": "Computer Processing Unit",
+          "b": "Computer Principle Unit",
+          "c": "Central Processing Unit ",
+          "d": "Control Processing Unit",
+          "correct": "c"
+      },
+      {
+          "question": "Which of the following language does the computer understand?",
+          "a": "Computer understands only C Language ",
+          "b": "Computer understands only Assembly Language",
+          "c": "Computer understands only Binary Language",
+          "d": "Computer understands only BASIC",
+          "correct": "c"
+      },
+      {
+          "question": "Which of the following computer language is written in binary codes only?",
+          "a": "pascal",
+          "b": "machine language",
+          "c": "C",
+          "d": "C#",
+          "correct": "b"
+      },
+      {
+          "question": "Which of the following is the brain of the computer?",
+          "a": "Central Processing Unit",
+          "b": "Memory",
+          "c": "Arithmetic and Logic unit",
+          "d": "Control unit",
+          "correct": "a"
+      },
+      {
+          "question": "Which of the following is not a characteristic of a computer?",
+          "a": "Versatility",
+          "b": " Accuracy",
+          "c": "Diligence",
+          "d": "I.Q.",
+          "correct": "d"
+      },
+      {
+          "question": "Which of the following is the smallest unit of data in a computer?",
+          "a": "Bit",
+          "b": "KB",
+          "c": "Nibble",
+          "d": "Byte",
+          "correct": "a"
+      },
+      {
+          "question": "Which of the following unit is responsible for converting the data received from the user into a computer understandable format?",
+          "a": "Output Unit",
+          "b": "Input Unit",
+          "c": "Memory Unit",
+          "d": "Arithmetic & Logic Unit",
+          "correct": "b"
+      }
+  ]
+}
