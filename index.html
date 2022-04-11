@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="chooseSubject">
+        <select name="subject" id="subject">
+            <option value="C">C</option>
+            <option value="CF">Computer Fundamental</option>
+            <option value="GA">General Aptitude</option>
+        </select>
+        <button id="start">Start Exam</button>
+    </div>
+
+    <div class="quiz-container" id = "quiz">
+        <div class="quiz">
+            <h4 id = "question">Question Text</h4>
+            <ul>
+                <li><input type="radio" id="a" name="answer" class = "answer">
+                    <label id = "a_text" for="a">Option</label>
+                </li>
+
+                <li><input type="radio" id="b" name="answer" class = "answer">
+                    <label id = "b_text" for="b">Option</label>
+                </li>
+
+                <li><input type="radio" id="c" name="answer" class = "answer">
+                    <label id = "c_text" for="c">Option</label>
+                </li>
+
+                <li><input type="radio" id="d" name="answer" class = "answer">
+                    <label id = "d_text" for="d">Option</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

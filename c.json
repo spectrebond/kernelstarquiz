@@ -1,0 +1,28 @@
+{
+    "data" : [
+        {
+            "question": "Former Australian captain Mark Taylor has had several nicknames over his playing career. Which of the following was NOT one of them?",
+            "a": "Tubby",
+            "b": "Stodge",
+            "c": "Helium Bat",
+            "d": "Stumpy",
+            "correct": "d"
+        },
+        {
+            "question": "Which was the 1st non Test playing country to beat India in an international match?",
+            "a": "Canada",
+            "b": "Sri-Lanka",
+            "c": "Zimbabwe",
+            "d": "East Africa",
+            "correct": "b"
+        },
+        {
+            "question": "Track and field star Carl Lewis won how many gold medals at the 1984 Olympic games?",
+            "a": "Two",
+            "b": "Three",
+            "c": "Four",
+            "d": "Eight",
+            "correct": "d"
+        }
+    ]
+}
