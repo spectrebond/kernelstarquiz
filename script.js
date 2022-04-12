@@ -4,6 +4,7 @@ const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
 const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
+const check = document.getElementById('check');
  const submitbtn = document.getElementById('submit'); const answerEls = document.querySelectorAll(".answer");
  const quiz = document.getElementById("quiz");
  const subject = document.getElementById("subject");
@@ -29,23 +30,33 @@ document.addEventListener('fullscreenchange',()=>{
         quiz.innerHTML='<h1>Your Exam has been Cancelled</h1>'
     }
 },false);
-document.onkeydown = function(e) {
-    if(event.keyCode == 123) {
-       return false;
+// document.onkeydown = function(e) {
+//     if(event.keyCode == 123) {
+//        return false;
+//     }
+//     if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+//        return false;
+//     }
+//     if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+//        return false;
+//     }
+//     if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+//        return false;
+//     }
+//     if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+//        return false;
+//     }
+//   }
+start.style.display = 'none'
+
+check.addEventListener('change',()=>{
+    if(check.checked===false){
+        start.style.display = 'none'
     }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-       return false;
+    else{
+        start.style.display = 'block'
     }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-       return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-       return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-       return false;
-    }
-  }
+})
 
 async function quizfetch(jsonfile){
     quiz.style.display='block'
@@ -125,7 +136,7 @@ submitbtn.addEventListener('click', () => {
         else {
             quiz.innerHTML = `
             <h2>Your Score ${score*10}/${l*10}.</h2>
-            
+            <h2>You can now safely close the window.</h2>
             <button onclick="finish()">Finish</button>
         `;
         }
