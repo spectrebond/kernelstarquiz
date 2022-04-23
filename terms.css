@@ -2,4 +2,19 @@ body{
   background: #232323;
   color: white;
   font-family: sans-serif;
+
+}
+strong,h3{
+  color: #7198d6;
+}
+.head{
+  font-size: 44px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.head1{
+  font-size: 25px;
+  font-weight: bold;
+  
 }
